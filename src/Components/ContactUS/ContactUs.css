@@ -1,0 +1,61 @@
+.contactus {
+  margin: 55px auto;
+  max-width: 90;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactus-col {
+  margin-top: 10px;
+  flex-basis: 48%;
+  color: #676767;
+}
+.contactus-col h3 {
+  color: #0c1f26;
+  font-weight: 500;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+.contactus-col h3 img {
+  height: 30px;
+  margin-left: 10px;
+}
+.contactus-col p {
+  max-width: 450px;
+  list-style: 0.3;
+}
+.contactus-col ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contactus-col ul li img {
+  width: 25px;
+  margin-right: 10px;
+}
+.contactus form input,
+.contactus form textarea {
+  display: block;
+  width: 100%;
+  background: #ebecfe;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+
+@media (max-width: 700px) {
+  .contactus {
+    display: block;
+    margin: 0;
+  }
+  .contactus-col {
+    padding: 20px;
+    margin: 0;
+  }
+}

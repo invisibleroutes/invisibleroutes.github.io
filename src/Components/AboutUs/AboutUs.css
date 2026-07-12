@@ -1,0 +1,19 @@
+.about-p{
+    margin: 15px  0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    /* text-decoration: underline; */
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+}
+
+@media (max-width:700px) {
+    .aboutus{
+        padding: 20px;
+    }
+}

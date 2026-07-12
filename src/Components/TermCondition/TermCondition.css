@@ -1,0 +1,27 @@
+.term {
+  background-color: #ffffff;
+}
+.term h1 {
+  padding: 10px 0px;
+}
+.term-p{
+    padding: 0px 0px 15px 15px;
+}
+
+.term h3 {
+  margin: 5px 0px;
+}
+
+.term h4{
+    margin-left: 15px;
+}
+.term ul{
+    margin-left: 36px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:700px) {
+    .term{
+        padding: 20px;
+    }
+}
