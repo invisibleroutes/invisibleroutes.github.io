@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
-
+import "./HomeLayouts.css"
 const HomeLayouts = ({ children }) => {
   return (
-    <div>
-      <Navbar />
-      <div className="children">{children}</div>
-      <Footer />
-    </div>
+      <div className="layout">
+          <Navbar />
+          <div className="children">{children}</div>
+          <Footer />
+      </div>
   );
 };
 

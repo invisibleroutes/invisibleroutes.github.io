@@ -17,7 +17,7 @@ const routes = [
   },
   {
     path: "/contact-us",
-    component: lazy(() => import("./Components/ContactUS/ContactUs")),
+    component: lazy(() => import("./Components/ContactUS")),
     exact: true,
     layout: HomeLayouts,
     guard: false,

@@ -1,17 +1,18 @@
 import React, { Fragment, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loader from "./Components/Loader/Loader";
+import { HelmetProvider } from "react-helmet-async";
 
 import AuthGuard from "./Components/AuthGuard";
 import routes from "./routes";
 
 function App() {
   return (
-      <div>
+      <HelmetProvider>
           <Router data={routes}>
               <RenderRoutes data={routes} />
           </Router>
-      </div>
+      </HelmetProvider>
   );
 }
 

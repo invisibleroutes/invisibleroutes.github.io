@@ -1,7 +1,10 @@
 import React from 'react'
 import "./PrivacyPolicy.css"
+import SEO from "../SEO";
 const PrivacyPolicy = () => {
   return (
+    <>
+          <SEO title="Privacy Policy" />
     <div className="privacy container">
       <h1>Privacy Policy</h1>
       <h3>1. About -</h3>
@@ -61,7 +64,7 @@ const PrivacyPolicy = () => {
         <li>Understand and analyze how you use our services</li>
         <li>Develop new products, services, features, and functionality</li>
       </ul>
-    </div>
+    </div></>
   );
 }
 

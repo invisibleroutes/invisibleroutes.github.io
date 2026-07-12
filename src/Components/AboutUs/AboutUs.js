@@ -1,7 +1,13 @@
 import React from 'react'
 import "./AboutUs.css"
+import SEO from '../SEO';
+
 const AboutUs = () => {
   return (
+    <>
+    <SEO 
+      title="About Us"
+    />
     <div className="container aboutus">
       <p className="about-p">
         At Invisible Routes, we are passionate about leveraging technology to
@@ -51,6 +57,7 @@ const AboutUs = () => {
         can help you achieve your goals.
       </p>
     </div>
+    </>
   );
 }
 
